@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izaz Education Hub</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #2d89ef; color: white; padding: 20px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 20px; }
+    footer { background: #2d89ef; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Izaz Education Hub</h1>
+    <p>Free Notes, Syllabus & Resources</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Notes</a>
+    <a href="#">Syllabus</a>
+    <a href="#">Contact</a>
+  </nav>
+  <section>
+    <h2>Welcome Students!</h2>
+    <p>This website provides free study resources for NEET & WBBSE students. 
+       Explore notes, syllabus, and practice materials.</p>
+  </section>
+  <footer>
+    <p>© 2025 Izaz Education Hub | Made with ❤️ for students</p>
+  </footer>
+</body>
+</html>
