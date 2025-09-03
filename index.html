@@ -1,7 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Izaz Education Hub</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f6f8; }
+  header { background: linear-gradient(90deg,#2d89ef,#1b5dab); color:white; text-align:center; padding:20px; }
+  header img { max-width:100%; height:auto; border-radius:10px; margin-bottom:10px; }
+  header h1 { margin:0; font-size:2.5em; }
+  header p { margin:5px 0 0; font-size:1.1em; }
+
+  nav { background:#333; display:flex; justify-content:center; flex-wrap:wrap; }
+  nav a { color:white; padding:12px 18px; text-decoration:none; font-weight:bold; margin:5px; transition:0.3s; }
+  nav a:hover { background:#555; border-radius:5px; }
+
+  section { display:none; padding:20px; max-width:900px; margin:auto; }
+  section.active { display:block; }
+
+  h2 { color:#2d89ef; margin-bottom:15px; }
+
+  .note-item, .syllabus-item { background:white; margin:10px 0; padding:15px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+  .note-item a, .syllabus-item a { color:#2d89ef; text-decoration:none; font-weight:bold; }
+  .note-item a:hover, .syllabus-item a:hover { text-decoration:underline; }
+
+  .download-btn { background:#2d89ef; color:white; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:bold; margin-left:10px; }
+  .download-btn:hover { background:#1b5dab; }
+
+  .search-box { margin-bottom:15px; text-align:right; }
+  .search-box input { padding:7px 10px; border-radius:5px; border:1px solid #ccc; width:200px; }
+
+  footer { background: linear-gradient(90deg,#2d89ef,#1b5dab); color:white; text-align:center; padding:15px; margin-top:30px; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://via.placeholder.com/900x150?text=Izaz+Education+Hub+Banner" alt="Banner">
+  <h1>Izaz Education Hub</h1>
+  <p>Free Notes, Syllabus & Resources for Students</p>
+</header>
+
+<nav>
+  <a href="#" onclick="showPage('home')">Home</a>
+  <a href="#" onclick="showPage('notes')">Notes</a>
+  <a href="#" onclick="showPage('syllabus')">Syllabus</a>
+  <a href="#" onclick="showPage('contact')">Contact</a>
+</nav>
+
+<!-- Home -->
+<section id="home" class="active">
+  <h2>Welcome Students!</h2>
+  <p>This website provides free study resources for NEET & WBBSE students. Explore notes, syllabus, and practice materials. Study smart and achieve your goals!</p>
+</section>
+
+<!-- Notes -->
+<section id="notes">
+  <h2>Notes</h2>
+  <div class="search-box">
+    <input type="text" placeholder="Search Notes..." onkeyup="filterNotes(this.value)">
+  </div>
+  <div class="note-item">
+    Biology Notes
+    <a href="notes/biology.pdf" class="download-btn" download>Download PDF</a>
+  </div>
+  <div class="note-item">
+    Physics Notes
+    <a href="notes/physics.pdf" class="download-btn" download>Download PDF</a>
+  </div>
+  <div class="note-item">
+    Chemistry Notes
+    <a href="notes/chemistry.pdf" class="download-btn" download>Download PDF</a>
+  </div>
+  <div class="note-item">
+    Class 10 Maths Notes
+    <a href="notes/maths.pdf" class="download-btn" download>Download PDF</a>
+  </div>
+</section>
+
+<!-- Syllabus -->
 <section id="syllabus">
   <h2>Syllabus</h2>
+  <div class="search-box">
+    <input type="text" placeholder="Search Syllabus..." onkeyup="filterSyllabus(this.value)">
+  </div>
   <div class="syllabus-item">
     NEET Syllabus
     <a href="neet.pdf" class="download-btn" download>Download PDF</a>
   </div>
+  <div class="syllabus-item">
+    WBBSE Class 10 Syllabus
+    <a href="syllabus/wbbse.pdf" class="download-btn" download>Download PDF</a>
+  </div>
+  <div class="syllabus-item">
+    WBJEE Syllabus
+    <a href="syllabus/wbjee.pdf" class="download-btn" download>Download PDF</a>
+  </div>
 </section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any doubts or need help, contact us:</p>
+  <p>Email: <a href="mailto:izazedu@gmail.com">izazedu@gmail.com</a></p>
+  <p>Follow us on YouTube: <a href="#">Khejurtala Comedy Team</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Izaz Education Hub | Made with ❤️ for students</p>
+</footer>
+
+<script>
+  function showPage(pageId) {
+    document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+    document.getElementById(pageId).classList.add('active');
+  }
+
+  function filterNotes(text) {
+    text = text.toLowerCase();
+    document.querySelectorAll('.note-item').forEach(item => {
+      item.style.display = item.innerText.toLowerCase().includes(text) ? '' : 'none';
+    });
+  }
+
+  function filterSyllabus(text) {
+    text = text.toLowerCase();
+    document.querySelectorAll('.syllabus-item').forEach(item => {
+      item.style.display = item.innerText.toLowerCase().includes(text) ? '' : 'none';
+    });
+  }
+</script>
+
+</body>
+</html>
