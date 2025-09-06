@@ -78,14 +78,14 @@
 
 <nav>
   <a href="#" onclick="showPage('home')">Home</a>
-  <a href="#" onclick="showPage('notes')">Notes</a>
+  <a href="#" onclick="showPage('pyq')">PYQ</a>
   <a href="#" onclick="showPage('syllabus')">Syllabus</a>
   <a href="#" onclick="showPage('contact')">Contact</a>
 </nav>
 
 <section id="home" class="active">
   <h2>Welcome Students!</h2>
-  <p>This website provides free study resources for NEET & WBBSE students. Explore notes, syllabus, and practice materials. Study smart and achieve your goals!</p>
+  <p>This website provides free study resources for NEET & WBBSE students. Explore PYQs, syllabus, and practice materials. Study smart and achieve your goals!</p>
 </section>
   
 <section id="pyq">
@@ -143,9 +143,9 @@
     document.getElementById(pageId).classList.add('active');
   }
 
-  function filterNotes(text) {
+  function filterPYQ(text) {
     text = text.toLowerCase();
-    document.querySelectorAll('.note-item').forEach(item => {
+    document.querySelectorAll('#pyq .note-item').forEach(item => {
       item.style.display = item.innerText.toLowerCase().includes(text) ? '' : 'none';
     });
   }
@@ -160,13 +160,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
