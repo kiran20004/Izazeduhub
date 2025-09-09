@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta name="google-site-verification" content="Jdtdi0HDu1FX1iHQdyo-Dk9YQWaZEe-UWQuqixFu80Y" />  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Izaz Education Hub</title>
@@ -31,7 +32,6 @@
 
     footer{padding:30px 0;color:var(--muted);font-size:14px;border-top:1px solid #f1f5f9;margin-top:36px}
 
-    /* responsive nav */
     .menu-toggle{display:none}
     @media(max-width:720px){
       .nav-links{display:none}
@@ -40,6 +40,9 @@
 
     .download{display:inline-block;padding:8px 10px;border-radius:8px;border:1px solid #e6f7f6;font-weight:600}
     .muted{color:var(--muted)}
+    .year-buttons{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+    .year-buttons a{background:#f1f5f9;padding:4px 8px;border-radius:6px;font-size:13px;text-decoration:none;color:var(--dark)}
+    .year-buttons a:hover{background:var(--accent);color:white}
   </style>
 </head>
 <body>
@@ -88,7 +91,6 @@
     <section id="syllabus">
       <h2>📚 Syllabus</h2>
       <p class="muted">Download section-wise syllabus and printable PDFs.</p>
-
       <div class="grid">
         <div class="card">
           <h3>Class 10 - WBBSE</h3>
@@ -120,29 +122,62 @@
 
     <section id="pyq" style="margin-top:26px">
       <h2>📝 Previous Year Questions (PYQ)</h2>
-      <p class="muted">Organized by exam and year. Click to preview or download.</p>
+      <p class="muted">Choose subject and year to download PDFs.</p>
 
       <div class="grid">
         <div class="card">
-          <h3>WBBSE Class 10 - PYQ</h3>
+          <h3>Class 10 - WBBSE</h3>
           <ul class="list">
-            <li>2019 — <a href="/pyq/10/2019.pdf">Download</a></li>
-            <li>2020 — <a href="/pyq/10/2020.pdf">Download</a></li>
-            <li>2021 — <a href="/pyq/10/2021.pdf">Download</a></li>
+            <li>Bengali
+              <div class="year-buttons">
+                <a href="/pyq/10/bengali/2018.pdf">2018</a>
+                <a href="/pyq/10/bengali/2019.pdf">2019</a>
+                <a href="/pyq/10/bengali/2020.pdf">2020</a>
+                <a href="/pyq/10/bengali/2021.pdf">2021</a>
+                <a href="/pyq/10/bengali/2022.pdf">2022</a>
+                <a href="/pyq/10/bengali/2023.pdf">2023</a>
+                <a href="/pyq/10/bengali/2024.pdf">2024</a>
+                <a href="/pyq/10/bengali/2025.pdf">2025</a>
+              </div>
+            </li>
+            <li>English <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Mathematics <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Physical Science <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Life Science <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Geography <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>History <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>WBCHSE / NEET PYQ</h3>
+          <h3>Class 11–12 - WBCHSE</h3>
           <ul class="list">
-            <li>WBCHSE — <a href="/pyq/wbchse/all_years.zip">All years (zip)</a></li>
-            <li>NEET — <a href="/pyq/neet/neet_pyq.zip">NEET PYQs</a></li>
+            <li>Bengali <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>English <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Biology <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Mathematics <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Physics <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
+            <li>Chemistry <div class="year-buttons"><a href="#">2018</a><a href="#">2019</a><a href="#">2020</a><a href="#">2021</a><a href="#">2022</a><a href="#">2023</a><a href="#">2024</a><a href="#">2025</a></div></li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>How to use</h3>
-          <p class="muted">Right-click the PDF link and select "Save link as..." to download. If you want files visible on the website, upload them to the repository's <code>/assets</code> folder.</p>
+          <h3>NEET</h3>
+          <p class="muted">Click year to download question papers (2014–2025).</p>
+          <div class="year-buttons">
+            <a href="/pyq/neet/2014.pdf">2014</a>
+            <a href="/pyq/neet/2015.pdf">2015</a>
+            <a href="/pyq/neet/2016.pdf">2016</a>
+            <a href="/pyq/neet/2017.pdf">2017</a>
+            <a href="/pyq/neet/2018.pdf">2018</a>
+            <a href="/pyq/neet/2019.pdf">2019</a>
+            <a href="/pyq/neet/2020.pdf">2020</a>
+            <a href="/pyq/neet/2021.pdf">2021</a>
+            <a href="/pyq/neet/2022.pdf">2022</a>
+            <a href="/pyq/neet/2023.pdf">2023</a>
+            <a href="/pyq/neet/2024.pdf">2024</a>
+            <a href="/pyq/neet/2025.pdf">2025</a>
+          </div>
         </div>
       </div>
     </section>
@@ -151,7 +186,7 @@
       <h2>📬 Contact</h2>
       <p class="muted">Suggestions, file uploads or corrections — contact via:</p>
       <ul>
-        <li>Email: <a href="mailto:izaz@example.com">izaz@example.com</a> (replace with your real email)</li>
+        <li>Email: <a href="mailto:izaz@example.com">izaz@example.com</a></li>
         <li>GitHub: <a href="https://github.com/kiran20004">github.com/kiran20004</a></li>
         <li>YouTube: <a href="https://youtube.com/@KhejurtalaComedyTeam">Khejurtala Comedy Team</a></li>
       </ul>
@@ -179,11 +214,3 @@
       nav.style.background = 'white';
       nav.style.padding = '10px';
       nav.style.position = 'absolute';
-      nav.style.right = '20px';
-      nav.style.top = '68px';
-      nav.style.borderRadius = '8px';
-      nav.style.boxShadow = '0 8px 30px rgba(2,6,23,0.06)';
-    }
-  </script>
-</body>
-</html>
