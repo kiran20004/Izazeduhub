@@ -1,92 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://kiran20004.github.io/Izazeduhub/</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/syllabus2/wbbse.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/wbchse.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/syllabus/neet.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2014.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2015.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2016.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2017.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2018.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2019.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2020.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2021.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2022.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2023.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2024.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kiran20004.github.io/Izazeduhub/neet2025.pdf</loc>
-  <lastmod>2025-09-09T18:24:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://kiran20004.github.io/Izazeduhub/#Syllabus</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
 
+  <url>
+    <loc>https://kiran20004.github.io/Izazeduhub/#PYQ</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kiran20004.github.io/Izazeduhub/#Contact</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
